@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/vicheatachea/week7-tripCostCalculator.git'
+                git branch: 'main', url: 'https://github.com/vicheatachea/week7-tripCostCalculator.git'
             }
         }
         stage('Build') {
