@@ -1,6 +1,8 @@
 # Use Maven image to build the application
 FROM maven:latest
 
+LABEL authors="vicheatachea"
+
 # Set working directory inside the container
 WORKDIR /app
 
